@@ -1,0 +1,31 @@
+body{
+  background: no-repeat url(../Images/foretFond.jpg);
+  font-family: Montserrat;
+}
+
+p{
+  font-size: 30px;
+}
+
+.Presentation{
+  margin-top: 50px;
+}
+
+.TxtImportant{
+  text-align: center;
+  padding-top: 30px;
+
+  /* partie animation clignotement du texte*/
+  animation: clignote 4s infinite;
+  text-shadow: #FFFFFF 1px 0 10px;
+
+}
+@keyframes clignote {
+  50% { text-shadow: #FFFFFF 1px 0 0px; }
+}
+
+.PhotoProfil{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
